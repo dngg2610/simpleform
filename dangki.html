@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        background-color: rgb(184, 214, 14);
+    }
+    body {
+        color: rgb(7, 106, 106);
+        font-size: 16px;
+    }
+    h2 {
+        background-color: aquamarine;
+        text-align: left;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th colspan="2"><h2>Đăng kí học viên</h2></th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text"; style="width: 200px;"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="text"; style="width: 100px"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <form>
+                    <label><input type="radio" value="nam" name="hobby">Nam</label>
+                    <label><input type="radio" value="nữ" name="hobby">Nữ</label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea name="hobby" id="text" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select name="hobby" id="select">
+                    <option value="option">-Chọn lớp-</option>
+                    <option value="option">12C1</option>
+                    <option value="option">12C2</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="hobby">
+            </td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td>
+                <input type="number" name="hobby">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button>Đăng ký</button>
+                <button>Nhập lại</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
